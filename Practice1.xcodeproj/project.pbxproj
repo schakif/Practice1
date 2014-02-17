@@ -16,6 +16,10 @@
 		BF4FFA1218B1BD4700DDD985 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4FFA1118B1BD4700DDD985 /* Default.png */; };
 		BF4FFA1418B1BD4700DDD985 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4FFA1318B1BD4700DDD985 /* Default@2x.png */; };
 		BF4FFA1618B1BD4700DDD985 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4FFA1518B1BD4700DDD985 /* Default-568h@2x.png */; };
+		BF4FFA1E18B1BE3200DDD985 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FFA1D18B1BE3200DDD985 /* Card.m */; };
+		BF4FFA2118B1BEB200DDD985 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FFA2018B1BEB200DDD985 /* Deck.m */; };
+		BF4FFA2418B1BFD800DDD985 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FFA2318B1BFD800DDD985 /* PlayingCard.m */; };
+		BF4FFA2718B1C03600DDD985 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FFA2618B1C03600DDD985 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		BF4FFA1118B1BD4700DDD985 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BF4FFA1318B1BD4700DDD985 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF4FFA1518B1BD4700DDD985 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF4FFA1C18B1BE3200DDD985 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		BF4FFA1D18B1BE3200DDD985 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		BF4FFA1F18B1BEB200DDD985 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		BF4FFA2018B1BEB200DDD985 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		BF4FFA2218B1BFD800DDD985 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		BF4FFA2318B1BFD800DDD985 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		BF4FFA2518B1C03600DDD985 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		BF4FFA2618B1C03600DDD985 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,14 @@
 			children = (
 				BF4FFA0E18B1BD4700DDD985 /* Practice1AppDelegate.h */,
 				BF4FFA0F18B1BD4700DDD985 /* Practice1AppDelegate.m */,
+				BF4FFA1C18B1BE3200DDD985 /* Card.h */,
+				BF4FFA1D18B1BE3200DDD985 /* Card.m */,
+				BF4FFA1F18B1BEB200DDD985 /* Deck.h */,
+				BF4FFA2018B1BEB200DDD985 /* Deck.m */,
+				BF4FFA2218B1BFD800DDD985 /* PlayingCard.h */,
+				BF4FFA2318B1BFD800DDD985 /* PlayingCard.m */,
+				BF4FFA2518B1C03600DDD985 /* PlayingCardDeck.h */,
+				BF4FFA2618B1C03600DDD985 /* PlayingCardDeck.m */,
 				BF4FFA0618B1BD4700DDD985 /* Supporting Files */,
 			);
 			path = Practice1;
@@ -167,6 +187,10 @@
 			files = (
 				BF4FFA0C18B1BD4700DDD985 /* main.m in Sources */,
 				BF4FFA1018B1BD4700DDD985 /* Practice1AppDelegate.m in Sources */,
+				BF4FFA1E18B1BE3200DDD985 /* Card.m in Sources */,
+				BF4FFA2118B1BEB200DDD985 /* Deck.m in Sources */,
+				BF4FFA2418B1BFD800DDD985 /* PlayingCard.m in Sources */,
+				BF4FFA2718B1C03600DDD985 /* PlayingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
